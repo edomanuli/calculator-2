@@ -40,3 +40,6 @@ while True:
 
     elif tokens[0] == "cube":  # create the cube function with user input
         print(cube(int(tokens[1])))
+
+    elif tokens[0] == "pow":  # create the power function with user input
+        print(power(int(tokens[1]), int(tokens[2])))
