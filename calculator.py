@@ -37,3 +37,6 @@ while True:
 
     elif tokens[0] == "square":  # create the square function with user input
         print(square(int(tokens[1])))
+
+    elif tokens[0] == "cube":  # create the cube function with user input
+        print(cube(int(tokens[1])))
