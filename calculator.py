@@ -31,3 +31,6 @@ while True:
 
     elif tokens[0] == "*":  # create the multiply function with user input
         print(multiply(int(tokens[1]), int(tokens[2])))
+
+    elif tokens[0] == "/":  # create the division function with user input
+        print(divide(int(tokens[1]), int(tokens[2])))
