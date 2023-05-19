@@ -43,3 +43,6 @@ while True:
 
     elif tokens[0] == "pow":  # create the power function with user input
         print(power(int(tokens[1]), int(tokens[2])))
+
+    elif tokens[0] == "mod":  # modulo/remainder function with user input
+        print(mod(int(tokens[1]), int(tokens[2])))
