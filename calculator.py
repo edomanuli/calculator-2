@@ -25,3 +25,6 @@ while True:
         break
     elif tokens[0] == "+":  # create the add function with user input
         print(add(int(tokens[1]), int(tokens[2])))
+
+    elif tokens[0] == "-":  # create the subtract function with user input
+        print(subtract(int(tokens[1]), int(tokens[2])))
