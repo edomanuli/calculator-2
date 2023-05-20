@@ -46,3 +46,8 @@ while True:
 
     elif tokens[0] == "mod":  # modulo/remainder function with user input
         print(mod(int(tokens[1]), int(tokens[2])))
+
+    else:
+        print("please enter a valid input.")
+
+print("Goodbye!")
